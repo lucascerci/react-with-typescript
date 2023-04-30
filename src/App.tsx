@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import UserSearch from './state/UserSearch';
+import EventComponent from './events/EventComponent';
 
 function App() {
   return (
     <div className="App">
-      <UserSearch />
+      <EventComponent />
     </div>
   );
 }
